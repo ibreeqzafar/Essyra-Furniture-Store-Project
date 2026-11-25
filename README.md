@@ -1,22 +1,43 @@
 <div align="center">
 
-# ESSYRA
-### Find the soul of your place.
+<img src="docs/essyra-portfolio-motion.gif" alt="Animated ESSYRA portfolio: homepage, Design Studio and ESSYRA Care screenshots float in a dimensional perspective composition" width="100%" />
 
-A furniture shopping experience with a private design workspace, conversational assistance, and store administration.
+<br />
 
-[![Website](https://img.shields.io/badge/Explore-ESSYRA-30382D?style=for-the-badge)](https://essyra-home.vercel.app/)
+[![Explore ESSYRA](https://img.shields.io/badge/EXPLORE_THE_STORE-ESSYRA-30382D?style=for-the-badge)](https://essyra-home.vercel.app/)
 [![Checks](https://github.com/ibreeqzafar/dbms/actions/workflows/checks.yml/badge.svg)](https://github.com/ibreeqzafar/dbms/actions/workflows/checks.yml)
 ![React](https://img.shields.io/badge/React-19-149ECA?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3ECF8E?logo=supabase&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-Self_hosted-EA4B71?logo=n8n&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-Self--hosted-EA4B71?logo=n8n&logoColor=white)
 
-[Explore the store](https://essyra-home.vercel.app/) · [Design Studio](https://essyra-home.vercel.app/studio) · [Setup guide](SETUP.md) · [Agent architecture](DESIGN-AGENT.md)
+**Considered furniture. Personal spaces.**
 
-<img src="public/films/interior-poster.jpg" alt="Warm furnished interior featured in the ESSYRA homepage experience" width="900" />
+[Store](https://essyra-home.vercel.app/) · [Design Studio](https://essyra-home.vercel.app/studio) · [Setup](SETUP.md) · [Architecture](DESIGN-AGENT.md)
 
-**Created by Umamah Ibreeq · Founder & CEO**
+*Created by Umamah Ibreeq · Founder & CEO*
+
+</div>
+
+---
+
+## A three-dimensional look at ESSYRA
+
+The animated cover uses real ESSYRA screenshots in a floating, layered composition.
+
+<div align="center">
+
+| **01 · Explore** | **02 · Get inspired** |
+|:---:|:---:|
+| <img src="docs/screenshots/home-navigation.png" alt="ESSYRA homepage with room navigation and cinematic interior" width="480" /> | <img src="docs/screenshots/essyra-care.png" alt="ESSYRA Care assistant with product discovery suggestions" width="480" /> |
+| Browse room collections and discover furniture. | Ask ESSYRA Care about products, orders and delivery. |
+
+<br />
+
+| **03 · Imagine your room** | **04 · Find your next piece** |
+|:---:|:---:|
+| <img src="docs/screenshots/design-studio.png" alt="ESSYRA Design Studio arranging a furniture piece in a room" width="480" /> | <img src="docs/screenshots/collection-offers.png" alt="ESSYRA furniture collection with product prices and offers" width="480" /> |
+| Build a room composition in the private Design Studio. | Compare pieces, explore current offers and choose a favourite. |
 
 </div>
 
