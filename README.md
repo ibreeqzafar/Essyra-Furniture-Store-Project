@@ -25,7 +25,7 @@
 
 </div>
 
-## A three-dimensional look at ESSYRA
+### A three-dimensional look at ESSYRA
 
 <img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
@@ -53,7 +53,7 @@ The animated cover uses real ESSYRA screenshots in a floating, layered compositi
 
 </div>
 
-## A home, considered from every angle
+### A home, considered from every angle
 
 <img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
@@ -61,7 +61,7 @@ ESSYRA connects furniture discovery with interior inspiration. Customers browse 
 
 Built as a university DBMS project, it brings the interface, relational data model, access rules and automation workflows together in one repository.
 
-## Explore the experience
+### Explore the experience
 
 <img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
@@ -74,7 +74,7 @@ Built as a university DBMS project, it brings the interface, relational data mod
 | **Store administration** | Products, inventory, sale prices, orders, customer records and combined historical/current sales analytics: monthly comparisons, best sellers, recorded collections, optional profit planning and CSV exports. Protected by administrator permissions and MFA. |
 | **Presentation** | Light/dark themes, responsive layouts, cinematic interiors, breadcrumbs, page metadata, sitemap and social previews. |
 
-### Agent status
+#### Agent status
 
 <img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
@@ -87,7 +87,7 @@ Built as a university DBMS project, it brings the interface, relational data mod
 
 Self-hosted n8n Community Edition does not depend on the n8n Cloud trial. Both n8n and the connector must run on an awake, connected laptop. Groq and any image service have their own limits.
 
-## How the pieces connect
+### How the pieces connect
 
 <img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
@@ -99,7 +99,7 @@ Self-hosted n8n Community Edition does not depend on the n8n Cloud trial. Both n
 
 The frontend is hosted on Vercel. Supabase hosts authentication, live database records, private files and backend functions. GitHub stores source code and database setup files. The laptop stores n8n's private runtime and encrypted credentials.
 
-## Run locally
+### Run locally
 
 <img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
@@ -125,7 +125,7 @@ npm run build
 
 The build produces `dist/`, generates public SEO routes, splits large features into separate chunks and disables production source maps.
 
-### Start the local agents
+#### Start the local agents
 
 <img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
@@ -141,7 +141,7 @@ npm start
 
 Follow [local n8n setup](local-n8n/README.md), import the workflows in `n8n/`, select your own saved provider credentials, and configure the connector. Importing portable JSON alone does not install credentials or activate the website connection.
 
-## Project map
+### Project map
 
 <img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
@@ -159,7 +159,7 @@ specifications/         SRS and SDS text
 .github/                Automated checks and dependency-update configuration
 ```
 
-## Validate the project
+### Validate the project
 
 <img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
@@ -176,7 +176,7 @@ specifications/         SRS and SDS text
 
 Database tests use disposable local PostgreSQL fixtures. Passing tests is evidence for the tested controls, not an exhaustive security guarantee. Dependencies in the local automation environment require separate review and updates.
 
-## Deployment
+### Deployment
 
 <img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
@@ -194,7 +194,7 @@ Set the public variables from `.env.example` in Vercel. To enable deployments on
 
 Backend functions and database migrations are deployed separately. Supabase's automatic production deployment was off at the last check. Reconcile the manually installed migration history before enabling it; do not blindly rerun historical migrations against the existing database.
 
-## Data and privacy
+### Data and privacy
 
 <img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
@@ -205,7 +205,7 @@ Backend functions and database migrations are deployed separately. Supabase's au
 - Reference product media and historical project records are documented in [REFERENCE_DATA.md](REFERENCE_DATA.md). Confirm media rights and replace project records before real commercial use.
 - COD is the current payment method. The project's delivery scheduler simulates delivery status; it does not verify a physical courier.
 
-## Useful guides
+### Useful guides
 
 <img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
@@ -219,7 +219,7 @@ Backend functions and database migrations are deployed separately. Supabase's au
 
 <div align="center">
 
-### From first inspiration to a space of your own
+#### From first inspiration to a space of your own
 
 <img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
