@@ -16,7 +16,7 @@
   <a href="https://docs.n8n.io/"><img src="https://img.shields.io/badge/n8n-Self--hosted-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n documentation" /></a>
 </p>
 
-**Considered furniture. Personal spaces.**
+<img src="docs/essyra-tagline-typewriter.gif" alt="Animated typewriter tagline: Considered furniture. Personal spaces." width="720" />
 
 [Store](https://essyra-home.vercel.app/) · [Design Studio](https://essyra-home.vercel.app/studio) · [Setup](docs/guides/SETUP.md) · [Architecture](docs/guides/DESIGN-AGENT.md)
 
