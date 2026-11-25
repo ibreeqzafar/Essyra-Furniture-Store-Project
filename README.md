@@ -47,7 +47,7 @@ The animated cover uses real ESSYRA screenshots in a floating, layered compositi
 
 | **03 · Imagine your room** | **04 · Find your next piece** |
 |:---:|:---:|
-| <img src="docs/screenshots/design-studio.png" alt="ESSYRA Design Studio arranging a furniture piece in a room" width="480" /> | <img src="docs/screenshots/collection-offers.png" alt="ESSYRA furniture collection with product prices and offers" width="480" /> |
+| <img src="docs/screenshots/design-studio.png" alt="ESSYRA Design Studio placing a cream sofa in a bright room with arched windows" width="480" /> | <img src="docs/screenshots/collection-offers.png" alt="ESSYRA furniture collection with product prices and offers" width="480" /> |
 | Build a room composition in the private Design Studio. | Compare pieces, explore current offers and choose a favourite. |
 
 </div>
