@@ -13,7 +13,7 @@ The editor listens only on 127.0.0.1. The prepared website connector makes outbo
 
 After activation, use **Start ESSYRA Support.cmd** to start n8n and its website connector in the background. You can close the startup window and browser editor. Keep the laptop awake and online. **Stop ESSYRA n8n.cmd** stops both processes after checking their saved process identities. After restarting Windows, run **Start ESSYRA Support.cmd** again; no Windows auto-start or sleep settings are changed.
 
-For the connection key, run **Copy ESSYRA Bridge Key.cmd** yourself and paste its value directly into Supabase Edge Function secrets as `N8N_SUPPORT_WORKER_KEY`. This creates a random key on first use and stores it with Windows user encryption. Do not paste it into chat or source files. The assistant does not need its value. Full activation and security details are in the website source's `SUPPORT-AGENT-SETUP.md`.
+For the connection key, run **Copy ESSYRA Bridge Key.cmd** yourself and paste its value directly into Supabase Edge Function secrets as `N8N_SUPPORT_WORKER_KEY`. This creates a random key on first use and stores it with Windows user encryption. Do not paste it into chat or source files. The assistant does not need its value. Full activation and security details are in the website source's [`SUPPORT-AGENT-SETUP.md`](../docs/guides/SUPPORT-AGENT-SETUP.md).
 
 The CMD helper runs Node and ordinary built-in Windows encryption/clipboard commands. It does not load a PowerShell script file or change Windows execution policy. The older **Set ESSYRA Bridge Key.cmd** shortcut now opens the same copy helper.
 

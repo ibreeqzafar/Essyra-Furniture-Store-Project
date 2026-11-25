@@ -13,7 +13,7 @@
 
 **Considered furniture. Personal spaces.**
 
-[Store](https://essyra-home.vercel.app/) · [Design Studio](https://essyra-home.vercel.app/studio) · [Setup](SETUP.md) · [Architecture](DESIGN-AGENT.md)
+[Store](https://essyra-home.vercel.app/) · [Design Studio](https://essyra-home.vercel.app/studio) · [Setup](docs/guides/SETUP.md) · [Architecture](docs/guides/DESIGN-AGENT.md)
 
 *Created by Umamah Ibreeq · Founder & CEO*
 
@@ -83,7 +83,7 @@ Built as a university DBMS project, it brings the interface, relational data mod
 | **ESSYRA Care** | Local n8n workflow using Groq `openai/gpt-oss-20b` and bounded public catalogue/policy tools. |
 | **Design Studio adviser** | Separate n8n workflow and conversation memory; styling guidance for the studio's matched products. |
 | **Furniture placement** | Browser-based background removal, cropping and adjustable illustrative overlays. |
-| **Photorealistic room editing** | Live finished-image panel, n8n/Groq room validation and FLUX editing, with a private Supabase queue and owner-only results. Pipeline/isolation tests passed and the frontend was deployed through GitHub. Generated furniture fidelity needs visual review; the laptop connector and free provider capacity must be available. [Integration notes](DESIGN-STUDIO-IMAGES.md). |
+| **Photorealistic room editing** | Live finished-image panel, n8n/Groq room validation and FLUX editing, with a private Supabase queue and owner-only results. Pipeline/isolation tests passed and the frontend was deployed through GitHub. Generated furniture fidelity needs visual review; the laptop connector and free provider capacity must be available. [Integration notes](docs/guides/DESIGN-STUDIO-IMAGES.md). |
 
 Self-hosted n8n Community Edition does not depend on the n8n Cloud trial. Both n8n and the connector must run on an awake, connected laptop. Groq and any image service have their own limits.
 
@@ -202,14 +202,14 @@ Backend functions and database migrations are deployed separately. Supabase's au
 - Only public configuration belongs in `VITE_*` variables. Provider and service-role keys remain in secure server or n8n settings.
 - Customer access is enforced by database ownership rules; staff management requires an active administrator with MFA.
 - Guest recommendation access uses three successful generations with a 24-hour refill. Failed/empty matching requests do not consume a successful generation.
-- Reference product media and historical project records are documented in [REFERENCE_DATA.md](REFERENCE_DATA.md). Confirm media rights and replace project records before real commercial use.
+- Reference product media and historical project records are documented in [REFERENCE_DATA.md](docs/guides/REFERENCE_DATA.md). Confirm media rights and replace project records before real commercial use.
 - COD is the current payment method. The project's delivery scheduler simulates delivery status; it does not verify a physical courier.
 
 ### Useful guides
 
 <img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
-[General setup](SETUP.md) · [Administrator guide](ADMIN-GUIDE.md) · [Design agent](DESIGN-AGENT.md) · [Support connection](SUPPORT-AGENT-SETUP.md) · [Customer reviews](CUSTOMER-REVIEWS.md) · [Furniture cutouts](STUDIO-EXTRACTION.md)
+[General setup](docs/guides/SETUP.md) · [Administrator guide](docs/guides/ADMIN-GUIDE.md) · [Design agent](docs/guides/DESIGN-AGENT.md) · [Support connection](docs/guides/SUPPORT-AGENT-SETUP.md) · [Customer reviews](docs/guides/CUSTOMER-REVIEWS.md) · [Furniture cutouts](docs/guides/STUDIO-EXTRACTION.md)
 
 <div align="center">
 

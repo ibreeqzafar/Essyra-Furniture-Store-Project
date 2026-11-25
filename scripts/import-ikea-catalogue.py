@@ -170,5 +170,5 @@ The catalogue is checked into `src/data/catalogue.json` and works locally withou
  text+='\n'.join(f'- {room}: {count}' for room,count in report['rooms'].items())
  text+='\n\n## Exact manufacturer sources\n\n'
  text+='\n'.join(f"- [{p['name']} — {', '.join(p['colors']) or 'pictured finish'}]({p['sourceUrl']})" for p in values)+'\n'
- (ROOT/'REFERENCE_DATA.md').write_text(text,encoding='utf-8')
+ (ROOT/'docs/guides/REFERENCE_DATA.md').write_text(text,encoding='utf-8')
 if __name__=='__main__':main()
