@@ -27,6 +27,8 @@
 
 ## A three-dimensional look at ESSYRA
 
+<img src="docs/readme-color-divider.gif" alt="" width="100%" />
+
 The animated cover uses real ESSYRA screenshots in a floating, layered composition.
 
 <div align="center">
@@ -53,11 +55,15 @@ The animated cover uses real ESSYRA screenshots in a floating, layered compositi
 
 ## A home, considered from every angle
 
+<img src="docs/readme-color-divider.gif" alt="" width="100%" />
+
 ESSYRA connects furniture discovery with interior inspiration. Customers browse by room, compare pieces, create a room composition and place cash-on-delivery orders. A private administration area gives the brand control over its catalogue, stock, sale prices, orders and customer care.
 
 Built as a university DBMS project, it brings the interface, relational data model, access rules and automation workflows together in one repository.
 
 ## Explore the experience
+
+<img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
 | Experience | What it includes |
 |---|---|
@@ -70,6 +76,8 @@ Built as a university DBMS project, it brings the interface, relational data mod
 
 ### Agent status
 
+<img src="docs/readme-color-divider.gif" alt="" width="100%" />
+
 | Component | Current implementation |
 |---|---|
 | **ESSYRA Care** | Local n8n workflow using Groq `openai/gpt-oss-20b` and bounded public catalogue/policy tools. |
@@ -81,6 +89,8 @@ Self-hosted n8n Community Edition does not depend on the n8n Cloud trial. Both n
 
 ## How the pieces connect
 
+<img src="docs/readme-color-divider.gif" alt="" width="100%" />
+
 <div align="center">
 
 <img src="docs/essyra-system-flow.svg" alt="Dimensional architecture flow: storefront, Supabase authentication and database, private job queue, and laptop-hosted n8n agents" width="100%" />
@@ -90,6 +100,8 @@ Self-hosted n8n Community Edition does not depend on the n8n Cloud trial. Both n
 The frontend is hosted on Vercel. Supabase hosts authentication, live database records, private files and backend functions. GitHub stores source code and database setup files. The laptop stores n8n's private runtime and encrypted credentials.
 
 ## Run locally
+
+<img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
 **Requirements:** Node.js 24, npm and a configured Supabase project for connected features.
 
@@ -115,6 +127,8 @@ The build produces `dist/`, generates public SEO routes, splits large features i
 
 ### Start the local agents
 
+<img src="docs/readme-color-divider.gif" alt="" width="100%" />
+
 For the existing configured laptop installation, double-click **Start ESSYRA Support.cmd** in the `essyra-n8n-local` setup folder. This starts n8n and the outbound website connector. Open `http://localhost:5678` to inspect workflows.
 
 For a fresh installation from GitHub:
@@ -128,6 +142,8 @@ npm start
 Follow [local n8n setup](local-n8n/README.md), import the workflows in `n8n/`, select your own saved provider credentials, and configure the connector. Importing portable JSON alone does not install credentials or activate the website connection.
 
 ## Project map
+
+<img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
 ```text
 src/                    Frontend pages, components and application logic
@@ -145,6 +161,8 @@ specifications/         SRS and SDS text
 
 ## Validate the project
 
+<img src="docs/readme-color-divider.gif" alt="" width="100%" />
+
 | Command | Coverage |
 |---|---|
 | `npm test` | Domain rules, catalogue consistency, navigation, chat formatting and rankings. |
@@ -159,6 +177,8 @@ specifications/         SRS and SDS text
 Database tests use disposable local PostgreSQL fixtures. Passing tests is evidence for the tested controls, not an exhaustive security guarantee. Dependencies in the local automation environment require separate review and updates.
 
 ## Deployment
+
+<img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
 | Vercel setting | Value |
 |---|---|
@@ -176,6 +196,8 @@ Backend functions and database migrations are deployed separately. Supabase's au
 
 ## Data and privacy
 
+<img src="docs/readme-color-divider.gif" alt="" width="100%" />
+
 - Private customer records, room photos, credentials and n8n runtime backups do not belong in GitHub.
 - Only public configuration belongs in `VITE_*` variables. Provider and service-role keys remain in secure server or n8n settings.
 - Customer access is enforced by database ownership rules; staff management requires an active administrator with MFA.
@@ -184,6 +206,8 @@ Backend functions and database migrations are deployed separately. Supabase's au
 - COD is the current payment method. The project's delivery scheduler simulates delivery status; it does not verify a physical courier.
 
 ## Useful guides
+
+<img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
 [General setup](SETUP.md) · [Administrator guide](ADMIN-GUIDE.md) · [Design agent](DESIGN-AGENT.md) · [Support connection](SUPPORT-AGENT-SETUP.md) · [Customer reviews](CUSTOMER-REVIEWS.md) · [Furniture cutouts](STUDIO-EXTRACTION.md)
 
@@ -196,6 +220,8 @@ Backend functions and database migrations are deployed separately. Supabase's au
 <div align="center">
 
 ### From first inspiration to a space of your own
+
+<img src="docs/readme-color-divider.gif" alt="" width="100%" />
 
 <img src="docs/essyra-footer-motion.gif" alt="Animated text-only footer: an embossed ESSYRA wordmark above a moving highlight flowing through Discover, Imagine, Choose and Make It Yours" width="100%" />
 
