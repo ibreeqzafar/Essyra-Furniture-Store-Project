@@ -73,22 +73,11 @@ Self-hosted n8n Community Edition does not depend on the n8n Cloud trial. Both n
 
 ## How the pieces connect
 
-```mermaid
-flowchart LR
-    Customer[Customer browser] --> Web[React + TypeScript]
-    Web --> Auth[Supabase Auth]
-    Web --> API[Protected Edge Functions]
-    Web --> DB[(PostgreSQL + RLS)]
-    API --> DB
-    API --> Files[Private room storage]
-    API --> Queue[Private job queue]
-    Worker[Outbound laptop connector] --> Queue
-    Worker --> Care[n8n: ESSYRA Care]
-    Worker --> Studio[n8n: Design Studio]
-    Care --> Groq[Groq language model]
-    Studio --> Groq
-    Staff[Administrator + MFA] --> Web
-```
+<div align="center">
+
+<img src="docs/essyra-system-flow.svg" alt="Dimensional architecture flow: storefront, Supabase authentication and database, private job queue, and laptop-hosted n8n agents" width="100%" />
+
+</div>
 
 The frontend is hosted on Vercel. Supabase hosts authentication, live database records, private files and backend functions. GitHub stores source code and database setup files. The laptop stores n8n's private runtime and encrypted credentials.
 
@@ -191,6 +180,12 @@ Backend functions and database migrations are deployed separately. Supabase's au
 [General setup](SETUP.md) · [Administrator guide](ADMIN-GUIDE.md) · [Design agent](DESIGN-AGENT.md) · [Support connection](SUPPORT-AGENT-SETUP.md) · [Customer reviews](CUSTOMER-REVIEWS.md) · [Furniture cutouts](STUDIO-EXTRACTION.md)
 
 ---
+
+<div align="center">
+
+<img src="docs/essyra-footer-flow.svg" alt="ESSYRA's dimensional user journey flowing from discovery through design and selection to a personal home" width="100%" />
+
+</div>
 
 <div align="center">
 
