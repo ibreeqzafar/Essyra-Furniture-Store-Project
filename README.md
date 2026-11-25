@@ -10,10 +10,10 @@
 
 <p align="center">
   <a href="https://github.com/ibreeqzafar/dbms/actions/workflows/checks.yml"><img src="https://github.com/ibreeqzafar/dbms/actions/workflows/checks.yml/badge.svg?style=for-the-badge" alt="Website and access-control checks" /></a>&nbsp;
-  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-19-30382D?style=for-the-badge&logo=react&logoColor=white" alt="React 19 documentation" /></a>&nbsp;
-  <a href="https://www.typescriptlang.org/docs/"><img src="https://img.shields.io/badge/TypeScript-5-30382D?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript 5 documentation" /></a>&nbsp;
-  <a href="https://supabase.com/docs"><img src="https://img.shields.io/badge/Supabase-PostgreSQL-30382D?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase and PostgreSQL documentation" /></a>&nbsp;
-  <a href="https://docs.n8n.io/"><img src="https://img.shields.io/badge/n8n-Self--hosted-30382D?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n documentation" /></a>
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-19-149ECA?style=for-the-badge&logo=react&logoColor=white" alt="React 19 documentation" /></a>&nbsp;
+  <a href="https://www.typescriptlang.org/docs/"><img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript 5 documentation" /></a>&nbsp;
+  <a href="https://supabase.com/docs"><img src="https://img.shields.io/badge/Supabase-PostgreSQL-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase and PostgreSQL documentation" /></a>&nbsp;
+  <a href="https://docs.n8n.io/"><img src="https://img.shields.io/badge/n8n-Self--hosted-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n documentation" /></a>
 </p>
 
 **Considered furniture. Personal spaces.**
