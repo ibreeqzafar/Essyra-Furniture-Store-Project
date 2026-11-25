@@ -183,14 +183,16 @@ Backend functions and database migrations are deployed separately. Supabase's au
 
 <div align="center">
 
-<img src="docs/essyra-footer-flow.svg" alt="ESSYRA's dimensional user journey flowing from discovery through design and selection to a personal home" width="100%" />
+### From first inspiration to a space of your own
 
-</div>
+`01 · DISCOVER`　⟶　`02 · IMAGINE`　⟶　`03 · CHOOSE`　⟶　`04 · MAKE IT YOURS`
 
-<div align="center">
+<br />
 
-**ESSYRA · Find the soul of your place.**
+**ESSYRA**
 
-[essyra.furniture@gmail.com](mailto:essyra.furniture@gmail.com) · [+92 317 2197499](tel:+923172197499)
+*Find the soul of your place.*
+
+[Explore the store](https://essyra-home.vercel.app/) · [Open Design Studio](https://essyra-home.vercel.app/studio)
 
 </div>
