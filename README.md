@@ -4,12 +4,17 @@
 
 <br />
 
-[![Explore ESSYRA](https://img.shields.io/badge/EXPLORE_THE_STORE-ESSYRA-30382D?style=for-the-badge)](https://essyra-home.vercel.app/)
-[![Checks](https://github.com/ibreeqzafar/dbms/actions/workflows/checks.yml/badge.svg)](https://github.com/ibreeqzafar/dbms/actions/workflows/checks.yml)
-![React](https://img.shields.io/badge/React-19-149ECA?logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3ECF8E?logo=supabase&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-Self--hosted-EA4B71?logo=n8n&logoColor=white)
+<p align="center">
+  <a href="https://essyra-home.vercel.app/"><img src="https://img.shields.io/badge/EXPLORE_THE_STORE-ESSYRA-30382D?style=for-the-badge" alt="Explore the ESSYRA store" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ibreeqzafar/dbms/actions/workflows/checks.yml"><img src="https://github.com/ibreeqzafar/dbms/actions/workflows/checks.yml/badge.svg?style=for-the-badge" alt="Website and access-control checks" /></a>&nbsp;
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-19-30382D?style=for-the-badge&logo=react&logoColor=white" alt="React 19 documentation" /></a>&nbsp;
+  <a href="https://www.typescriptlang.org/docs/"><img src="https://img.shields.io/badge/TypeScript-5-30382D?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript 5 documentation" /></a>&nbsp;
+  <a href="https://supabase.com/docs"><img src="https://img.shields.io/badge/Supabase-PostgreSQL-30382D?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase and PostgreSQL documentation" /></a>&nbsp;
+  <a href="https://docs.n8n.io/"><img src="https://img.shields.io/badge/n8n-Self--hosted-30382D?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n documentation" /></a>
+</p>
 
 **Considered furniture. Personal spaces.**
 
