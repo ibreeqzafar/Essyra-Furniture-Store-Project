@@ -185,7 +185,7 @@ Backend functions and database migrations are deployed separately. Supabase's au
 
 ### From first inspiration to a space of your own
 
-`01 · DISCOVER`　⟶　`02 · IMAGINE`　⟶　`03 · CHOOSE`　⟶　`04 · MAKE IT YOURS`
+<img src="docs/essyra-footer-motion.gif" alt="Animated text-only footer: an embossed ESSYRA wordmark above a moving highlight flowing through Discover, Imagine, Choose and Make It Yours" width="100%" />
 
 <br />
 
