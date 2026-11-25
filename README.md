@@ -19,7 +19,11 @@
 
 </div>
 
----
+<div align="center">
+
+<img src="docs/readme-color-divider.gif" alt="Animated raised 3D divider with color flowing along the line" width="100%" />
+
+</div>
 
 ## A three-dimensional look at ESSYRA
 
@@ -41,7 +45,11 @@ The animated cover uses real ESSYRA screenshots in a floating, layered compositi
 
 </div>
 
----
+<div align="center">
+
+<img src="docs/readme-color-divider.gif" alt="Animated raised 3D divider with color flowing along the line" width="100%" />
+
+</div>
 
 ## A home, considered from every angle
 
@@ -179,7 +187,11 @@ Backend functions and database migrations are deployed separately. Supabase's au
 
 [General setup](SETUP.md) · [Administrator guide](ADMIN-GUIDE.md) · [Design agent](DESIGN-AGENT.md) · [Support connection](SUPPORT-AGENT-SETUP.md) · [Customer reviews](CUSTOMER-REVIEWS.md) · [Furniture cutouts](STUDIO-EXTRACTION.md)
 
----
+<div align="center">
+
+<img src="docs/readme-color-divider.gif" alt="Animated raised 3D divider with color flowing along the line" width="100%" />
+
+</div>
 
 <div align="center">
 
